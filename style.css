@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #000;
+}
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-image: url(abstract.png);
+    margin: 20px auto;
+}
+
+#calculator {
+    width: 270px;
+    height: 468px;
+    margin: 0 auto;
+    background-color: #000;
+    padding-top: 130px;
+    top: 30px;
+    position: relative;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+}
+
+.button {
+    width: 55px;
+    height: 55px;
+    font-size: 25px;
+    margin: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #fff;
+    background-color: #333333;
+    border-style: none;
+    outline: none;
+    transform: scale(5px);
+}
+.textview {
+    width: 247px;
+    margin: 4px;
+    font-size: 60px;
+    padding: 5px;
+    text-align: end;
+    background-color: #000;
+    border-style: none;
+    color: #fff;
+}
+.btn1 {
+    width: 122px;
+    font-size: 28px;
+    border-radius: 45px;
+    cursor: pointer;
+    background-color: #a7a6a7;
+    color: #000;
+}
+.btn2{
+    background-color: #a7a6a7;
+    color: #000;
+
+}
+.btn3 {
+    width: 122px;
+    font-size: 28px;
+    border-radius: 45px;
+    cursor: pointer;
+    background-color: #333333;
+    color: #fff;
+    border-style: none;
+    outline: none;
+    padding-left: 20px;
+}
+.btn4{
+    background-color: #ff9e09;
+}
+
+
+/* -------- responsive mobile --------- */
+
+@media(max-width: 486px) {
+    .main {
+        width: 0px;
+        height: 0px;
+        background-size: cover;
+        background-image: ;
+        margin: 0px ;
+    }
+    .textview {
+        width: 85vw;
+        font-size: 65px;
+        padding: 5px;
+        margin: 0px;
+        text-align: end;
+        background-color: #000;
+        border-style: none;
+        color: #fff;
+    }
+    .button {
+        width: 85px;
+        height: 85px;
+        font-size: 25px;
+        /* margin: 3px; */
+        border-radius: 50%;
+        cursor: pointer;
+        color: #fff;
+        background-color: #333333;
+        border-style: none;
+        outline: none;
+        transform: scale(5px);
+    }
+    td {
+        width: 133px;
+    }
+    table {
+        margin: 0px;
+        padding: 0px;
+        /* height: 100vh; */
+    }
+    #calculator {
+        padding-top: 125px;
+        position: relative;
+        padding-right: 0px;
+        padding-left: 0px;
+        top: 0px;
+        width: 0px;
+        height: 0px;
+        left: 10px;
+    }
+    .btn1 {
+        width: 180px;
+        font-size: 28px;
+        border-radius: 45px;
+        cursor: pointer;
+        background-color: #a7a6a7;
+        color: #000;
+    }
+    .btn2{
+        background-color: #a7a6a7;
+        color: #000;
+    
+    }
+    .btn3 {
+        width: 180px;
+        font-size: 28px;
+        border-radius: 45px;
+        cursor: pointer;
+        background-color: #333333;
+        color: #fff;
+        border-style: none;
+        outline: none;
+        padding-left: 20px;
+    }
+    .btn4{
+        background-color: #ff9e09;
+    }
+    
+  
+
+}

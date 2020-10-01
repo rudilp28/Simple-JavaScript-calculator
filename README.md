@@ -1,4 +1,7 @@
 # Simple-JavaScript-calculator
+
+ test: https://rudilp28.github.io/Simple-JavaScript-calculator/
+ 
  simple calculator made with JavaScript, html and css
 
 aqui está uma prévia da calciladora.
